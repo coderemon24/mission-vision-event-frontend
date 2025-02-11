@@ -157,7 +157,7 @@ a.service-link {
     font-size: 17px;
     outline: 2.5px solid var(--text-color);
     cursor: pointer;
-    transition: .3.5s linear;
+    transition: .2s linear;
     margin-top: 30px;
 }
 

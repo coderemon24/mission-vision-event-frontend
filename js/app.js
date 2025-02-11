@@ -17,7 +17,7 @@ $('.clients-slider').slick({
     speed: 600,
     autoplay: true,
     autoplaySpeed: 2000,
-    slidesToShow: 5,
+    slidesToShow: 6,
     slidesToScroll: 1,
     responsive: [
       {
