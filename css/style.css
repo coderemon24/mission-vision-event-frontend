@@ -192,3 +192,41 @@ a.service-link:hover {
 .service-item:hover .overlay {
     opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
+/*=== footer ===*/
+h2.footer-title {
+    color: var(--bg-color);
+    font-size: 23px;
+}
+
+p.footer-text {
+    color: #bdbdbd;
+    font-size: 16px;
+    text-align: justify;
+}
+
+ul.footer-links {
+    padding-left: 7px;
+}
+
+ul.footer-links>li>a {
+    color: var(--bg-color);
+    line-height: 32px;
+}
+hr.footer-line {
+    border-color: white;
+}
+
+p.footer-bottom-text {
+    color: #d9d9d9;
+    padding: 10px 0px;
+}
