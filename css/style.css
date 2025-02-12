@@ -234,6 +234,23 @@ h2.vision-title {
     bottom: -105px;
 }
 
+/*=== experience video ===*/
+.experience-video {
+    width: 35rem;
+    text-align: center;
+    margin: auto;
+    padding: 3rem 0px;
+}
+
+.experience-video>h2 {
+    color: var(--bg-color);
+    font-family: var(--text-font);
+}
+.youtube-icon>a {
+    color: white;
+    font-size: 4rem;
+}
+
 
 
 
