@@ -218,6 +218,21 @@ h2.vision-title {
     font-weight: 400;
     margin-bottom: 15px;
 }
+.vision-img-wrapper {
+    position: relative;
+}
+
+.visionImg-2 {
+    position: absolute;
+    top: -90px;
+    left: 250px;
+}
+
+.visionImg-3 {
+    position: absolute;
+    left: 270px;
+    bottom: -105px;
+}
 
 
 
