@@ -123,11 +123,11 @@ h3.service-title {text-transform: uppercase;color: var(--text-color);font-size: 
 h3.service-title.title-bottom::before {
     content: "";
     position: absolute;
-    border: 20px solid var(--bg-color);
+    border: 16px solid var(--bg-color);
     border-top-color: transparent;
     border-left-color: transparent;
     right: 0px;
-    top: -19px;
+    top: -20px;
 }
 .service-item{
     cursor: pointer;
@@ -135,7 +135,7 @@ h3.service-title.title-bottom::before {
 .service-content {
     width: 60%;
     background: var(--bg-color);
-    padding: 30px;
+    padding: 25px;
     position: absolute;
     top: -20rem;
     transition: .35s linear;
@@ -229,4 +229,28 @@ hr.footer-line {
 p.footer-bottom-text {
     color: #d9d9d9;
     padding: 10px 0px;
+}
+
+/*=== media queries ===*/
+@media (max-width: 992px) {
+    .service-content{
+        padding: 20px !important;
+    }
+    h3.service-title.title-bottom{
+        padding: 8px 20px !important;
+    }
+}
+
+@media (max-width: 768px) {}
+@media (max-width: 576px) {
+    .img-fluid{
+        max-width: 72% !important;
+    }
+    .img-text{
+        width: 6rem !important;
+        padding: 10px !important;
+    }
+    .img-text>h2{
+        font-size: 30px !important;
+    }
 }
