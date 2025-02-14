@@ -251,6 +251,34 @@ h2.vision-title {
     font-size: 4rem;
 }
 
+/*=== experience counter ===*/
+h2.ex_counter-number {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: var(--bg-color);
+    border-radius: 45% 55% 70% 35% / 45% 45% 55% 45%;
+    font-size: 30px;
+    padding: 65px;
+    font-family: var(--title-font);
+}
+.counter_title{
+    color: var(--text-color);
+    font-size: 24px;
+}
+
+.ex_counter-item {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+p.counter_text {
+    color: var(--secondary-color);
+}
 
 
 
